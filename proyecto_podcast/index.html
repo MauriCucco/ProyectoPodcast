@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE DOT Podcast Channel</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="images/logo.svg" alt="Logo del Podcast Channel"></a>
+        <nav>
+            <div class="menuhamburguesa">
+                <input type="checkbox" id="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul>
+                    <li><a href="#episodios">EPISODIOS</a></li>
+                    <li><a href="#phone">NOSOTROS</a></li>
+                    <li><a href="#invitadas">ENTREVISTAS</a></li>
+                    <li><a href="#iconos">TÓPICOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="presentacion">
+        <div class="containerpresentacion margenizquierdo">
+            <div id="primeraparte">    
+                <h1>Hello <del>world</del></h1>
+            </div>     
+            <div id="segundaparte">    
+                <h1>pale blue dot</h1> 
+            </div>
+            <p>Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a class="boton" href="#phone">CONOCÉ MÁS</a>
+        </div>
+    </section>
+    <section id="episodios">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 0,100 100,0"/>
+        </svg>
+        <h1>Episodios</h1>
+        <div class="contenedoriframe">
+            <iframe class="iframesuperior" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" height="232" allow="encrypted-media"></iframe>
+            <iframe class="iframesuperior" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" height="232" allow="encrypted-media"></iframe>
+            <iframe class="iframeinferior" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232" allow="encrypted-media"></iframe>
+            <iframe class="iframeinferior" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" height="232" allow="encrypted-media"></iframe>
+        </div>
+        <svg class="svginferior" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="100,0 100,100 0,100"/>
+        </svg>
+    </section>
+    <section id="dedondevenimos">
+        <img id="phone" src="images/phone.png" alt="Celular">
+        <div class="container">
+            <div class="titulouno">
+                <h1>De dónde</h1>
+            </div>
+            <div class="titulodos">
+                <h1>venimos</h1>
+            </div>
+            <div class="parrafo">
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                </p>
+                <br>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="invitadas">
+        <div class="tituloinvitadas margenizquierdo">
+            <h1>Invitadas/os estelares</h1>
+        </div>    
+        <div class="galeria">
+            <div class="imagen">
+                <img id="img1" src="images/grace-hopper.png" alt="Grace Hopper">
+            </div>
+            <div class="imagen">
+                <img id="img2" src="images/Katie-Bouman.png" alt="Katie Bouman">
+            </div>
+            <div class="imagen">
+                <img id="img3" src="images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+            </div>
+            <div class="imagen">
+                <img id="img4" src="images/Univac_computer.png" alt="Computadora de los años 50">
+            </div>
+            <div class="imagen">
+                <img id="img5" src="images/operators.png" alt="Operadoras">
+            </div>
+            <div class="imagen">
+                <img id="img6" src="images/susan-kare.png" alt=" Susan Kare">
+            </div>
+        </div>
+    </section>
+    <section id="iconos">
+        <div class=" tituloiconos margenizquierdo">
+            <h1>Algunos de nuestros temas</h1>
+        </div>
+        <div id="contenedordeimagenes">
+            <div class="contenedoricon" id="contenedoricon1">
+                <img class="icon" src="images/icon1.svg" alt="Icono 1">
+                <p>Trabajo remoto</p>
+            </div>
+            <div class="contenedoricon">
+                <img class="icon" src="images/icon2.svg" alt="Icono 2">
+                <p>Repensando la programación</p>
+            </div>
+            <div class="contenedoricon">
+                <img class="icon" src="images/icon3.svg" alt="Icono 3">
+                <p>Bases del código</p>
+            </div>
+            <div class="contenedoricon">
+                <img class="icon" src="images/icon4.svg" alt="Icono 4">
+                <p>Seguridad informática</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="novedades">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon fill="white" points="0,0 0,100 100,0"/>
+            </svg>
+            <h1>¿Querés las últimas novedades?</h1>
+            <a class="boton" href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+        </section>
+        <section id="redes">
+            <p>© 2019 — Hello blue pale dot</p>
+            <div class="cajaredes">
+                <a href="https://open.spotify.com/episode/1PZZu5RTAeqjc9VVzDl88w" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/a_pale_blue_dot__/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/snowy_universe?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/groups/PBDSavannah/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://t.me/s/the_pale_blue_dot?before=154" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/a027afbbf3.js" crossorigin="anonymous"></script>
+</body>
+</html>
