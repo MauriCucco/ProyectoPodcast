@@ -1,0 +1,46 @@
+#invitadas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloinvitadas {
+  width: 30.3rem;
+  margin-left: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+.galeria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .imagen {
+    display: flex;
+    flex-grow: 1;
+    img {
+      flex-grow: 1;
+      width: 32rem;
+      min-height: 24.3rem;
+    }
+  }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 768px) {
+  .tituloinvitadas {
+    width: unset;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px) {
+  .tituloinvitadas {
+    align-self: flex-start;
+    margin-bottom: 3.6rem;
+  }
+  .galeria {
+    flex-flow: row wrap;
+    .imagen img {
+      width: 44.9rem;
+      min-height: 36.4rem;
+    }
+  }
+}

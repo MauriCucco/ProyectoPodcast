@@ -1,0 +1,77 @@
+#dedondevenimos {
+  background-color: $bg-primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85.4rem;
+}
+#phone {
+  width: 36rem;
+  height: 51.9rem;
+  z-index: 1;
+  margin-top: 4.8rem;
+  transform: translateY(-144px);
+}
+.container {
+  transform: translateY(-14rem);
+  margin: 2.7rem 0rem 5.4rem 1.6rem;
+}
+.titulouno {
+  margin-right: 14.9rem;
+}
+.titulodos {
+  margin-right: 16.7rem;
+}
+.parrafo {
+  width: 28.8rem;
+  height: 25.4rem;
+  font-family: $text-little;
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+/*TABLETS*/
+@media screen and (min-width: 768px) {
+  #dedondevenimos {
+    flex-direction: row;
+    justify-content: center;
+    height: 46rem;
+  }
+  #phone {
+    transform: translateY(-9.4rem);
+    margin: 6.4rem 0rem;
+  }
+  .container {
+    transform: translateY(-165px);
+    margin-top: 25rem;
+    margin-left: 6.24rem;
+  }
+  .titulouno,
+  .titulodos {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px) {
+  #dedondevenimos {
+    flex-direction: row;
+    justify-content: center;
+    height: 55.2rem;
+  }
+  #phone {
+    width: 45.76rem;
+    height: 66rem;
+    transform: translateY(-12.8rem);
+  }
+  .container {
+    transform: translateY(-25rem);
+  }
+  .parrafo {
+    width: 46.4rem;
+    height: 20.4rem;
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+  }
+}

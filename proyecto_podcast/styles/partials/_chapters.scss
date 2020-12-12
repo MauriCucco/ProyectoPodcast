@@ -1,0 +1,77 @@
+#episodios {
+  background-image: linear-gradient(180deg, #0000ff 0%, #0000a3 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin: 3.2rem 15rem 1rem 1.6rem;
+    color: $bg-primary;
+  }
+}
+.contenedoriframe {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 89rem;
+}
+svg {
+  width: 100%;
+  height: 10vw;
+}
+.svginferior {
+  margin-top: 11.15rem;
+}
+iframe {
+  width: 29.8rem;
+  margin-top: 1.1rem;
+  border-radius: 0.6rem;
+}
+
+/*TABLETS*/
+@media screen and (min-width: 768px) {
+  #episodios h1 {
+    margin: 3rem 0rem 1.5rem;
+    align-self: flex-start;
+    margin-left: 17rem;
+  }
+  .iframeinferior {
+    margin-top: 5rem;
+  }
+  .svginferior {
+    margin-top: 6.9rem;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px) {
+  #episodios {
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    h1 {
+      align-self: flex-start;
+      margin: 4.94rem 94.2rem 2.6rem 20rem;
+    }
+  }
+  .contenedoriframe {
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: unset;
+  }
+  iframe {
+    width: 58.4rem;
+  }
+  .iframeinferior,
+  .iframesuperior {
+    margin-left: 3.6rem;
+    margin-right: 3.6rem;
+  }
+  .iframesuperior {
+    margin-bottom: 3.6rem;
+    margin-top: unset;
+  }
+  .iframeinferior {
+    margin-top: 3.6rem;
+  }
+  .svginferior {
+    margin-top: 9.6rem;
+  }
+}
